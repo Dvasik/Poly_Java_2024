@@ -7,3 +7,5 @@ byte b2 = b1 + 10;     // ошибка incompatible types
 int i2 = i1 + 101.0f;  // ошибка incompatible types
 float f2 = f1 + d1;    // ошибка incompatible types
 double d2 = f1 + 1.5d; // 3.0d
+
+// Это связано с тем, что в арифметических операциях выполняются только расширяющиеся преобразования
