@@ -1,7 +1,7 @@
 // Интерфейс с неабстрактным и статическим методом
 interface MyInterface {
 
-    // Неабстрактный метод с дефолтной реализацией
+    // Неабстрактный метод 
     default void defaultMethod() {
         System.out.println("This is the default method in the interface.");
     }
